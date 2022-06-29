@@ -43,3 +43,31 @@ header{
     transition: .2s linear;
     z-index: 1000;
 }
+
+.header-active{
+    top:0;
+    width: 100%;
+    border-radius: 0;
+}
+
+header .logo{
+    color: #333;
+    font-size: 3rem;
+}
+
+header .logo 3rem{
+    color: #0098a1;
+}
+
+header .navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0; padding: 0;
+}
+
+header .navbar ul li{
+    margin: 0 1rem;
+}
+
