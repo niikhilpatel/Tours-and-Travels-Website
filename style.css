@@ -71,3 +71,21 @@ header .navbar ul li{
     margin: 0 1rem;
 }
 
+header .navbar ul li{
+    font-size: 2rem;
+    color: #333;
+    transition: .2s linear;
+}
+
+
+header .navbar ul li .active,
+header .navbar ul li a:hover{
+    color: #0098a1;
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color: #0098a1;
+    cursor: pointer;
+    display: none;
+}
