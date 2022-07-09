@@ -17,7 +17,7 @@ html{
 
 .heading{
     color: #333;
-    font-size: 1rem;
+    font-size: 3.5rem;
     padding: 1rem;
     padding-top: 6rem;
     text-align: center;
@@ -35,9 +35,8 @@ header{
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    top: 1.5rem; left:50%;
-    transform: translate(-50%);
-    border-radius: .5rem;
+    top: 1.5rem; left:50%;   
+    transform: translateX(-50%);
     box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
     padding: .3rem 2rem;
     transition: .2s linear;
@@ -55,7 +54,7 @@ header .logo{
     font-size: 3rem;
 }
 
-header .logo 3rem{
+header .logo span{
     color: #0098a1;
 }
 
@@ -71,7 +70,7 @@ header .navbar ul li{
     margin: 0 1rem;
 }
 
-header .navbar ul li{
+header .navbar ul li a{
     font-size: 2rem;
     color: #333;
     transition: .2s linear;
@@ -88,4 +87,27 @@ header .fa-bars{
     color: #0098a1;
     cursor: pointer;
     display: none;
+}
+
+/* end Header*/
+
+
+/* Home Section ---*/
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    padding: 2rem 10rem;
+}
+
+.home .video video{
+    position: absolute;
+    top:0;  left:0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
