@@ -117,9 +117,24 @@ header .fa-bars{
 }
 
 .home .content p{
+    font-size: 6.1vw;
+    color: #eee;
+    text-shadow: 0 .3rem .5rem #000;
+}
+
+.home .content p{
     font-size: 1.5vw;
     color: #eee;
     text-shadow: 0 .3rem .5rem #000;
     padding-left: 2rem;
     border-left: .3rem solid #ddd;
+}
+
+.home .form-container form{
+    margin-top: 8rem;
+    padding: 2rem;
+    width: 40rem;
+    background-color: #fff;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.9);
+    border-radius: .5rem;
 }
