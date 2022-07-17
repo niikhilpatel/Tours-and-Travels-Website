@@ -118,13 +118,15 @@ header .fa-bars{
 
 .home .content p{
     font-size: 6.1vw;
-    color: #eee;
+    color: rgb(255, 255, 255);
+    background-color: #0098a1;
     text-shadow: 0 .3rem .5rem #000;
 }
 
 .home .content p{
     font-size: 1.5vw;
-    color: #eee;
+    color: rgb(255, 255, 255);
+    background-color: #0098a1;
     text-shadow: 0 .3rem .5rem #000;
     padding-left: 2rem;
     border-left: .3rem solid #ddd;
