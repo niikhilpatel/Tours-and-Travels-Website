@@ -29,7 +29,7 @@ html{
 }
 
 header{
-    width: 46%;
+    width: 100%;
     background: #fff;
     display: flex;
     align-items: center;
