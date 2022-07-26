@@ -113,7 +113,7 @@ header .fa-bars{
 }
 
 .home .content{
-    margin-top: 7rem;
+    margin-top: -30rem;
 }
 
 .home .content p{
@@ -177,10 +177,41 @@ header .fa-bars{
     transition: .2s linear;
 }
 
-.home.form-container form input[type="submit"]:hover{
+.home .form-container form input[type="submit"]:hover{
     border: 2rem solid #0098a1;
     color:#0098a1;
     background: none;
 }
 
 /* Home Section ENd---*/
+
+/* Featured Section---*/
+
+.feature{
+    min-height: 100vh;
+    background: #f9f9f9;
+}
+
+.feature .card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.feature .card-container .card{
+    width: 30rem;
+    margin: 2rem;
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+    overflow: hidden;
+    position: relative;
+}
+
+.feature .card-container .card img{
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+}
