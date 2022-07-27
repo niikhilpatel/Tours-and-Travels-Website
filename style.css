@@ -215,3 +215,14 @@ header .fa-bars{
     width: 100%;
     object-fit: cover;
 }
+
+.feature .card-container .content{
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.feature .card-container .content .title{
+    color: #0098a1;
+    font-size: 3rem;
+}
+
