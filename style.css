@@ -113,20 +113,25 @@ header .fa-bars{
 }
 
 .home .content{
-    margin-top: -30rem;
+    margin-top: 7rem;
 }
 
-.home .content p{
+.home .content h1{
     font-size: 6.1vw;
-    color: rgb(255, 255, 255);
-    background-color: #0098a1;
+    /*color: rgb(255, 255, 255);
+    /*background-color: #0098a1;*/
+    color: #fff;
     text-shadow: 0 .3rem .5rem #000;
 }
 
+.home .content h2{
+    font-size: 7.0vw;
+    color: rgb(14, 70, 51);
+}
 .home .content p{
     font-size: 1.5vw;
-    color: rgb(255, 255, 255);
-    background-color: #0098a1;
+    color: rgb(156, 18, 18);
+    background-color: #b7e8ea;
     text-shadow: 0 .3rem .5rem #000;
     padding-left: 2rem;
     border-left: .3rem solid #ddd;
