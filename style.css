@@ -231,3 +231,49 @@ header .fa-bars{
     font-size: 3rem;
 }
 
+.feature .card-container .content p{
+    color: #333;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+.feature .card-container .content .stars i{
+    padding: 0 .2rem;
+    font-size: 2rem;
+    color: gold;
+}
+
+.feature .card-container .content .btn{
+    font-size: 1.7rem;
+    margin-top: 1.4rem;
+    height: 3.5rem;
+    width: 12rem;
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+    background: #0098a1;
+    color: pointer;
+    transition: .2s linear;
+}
+
+.feature .card-container .content .btn:hover{
+    background: none;
+    border: 2rem solid #0098a1;
+    color: #0098a1;
+}
+
+.feature .card-container .card .discount{
+    position: absolute;
+    top: 1rem; left: 1rem;
+    display: block;
+    height: 3.5rem;
+    width: 6rem;
+    background: #ff3300;
+    color: #fff;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/*-- Featured Section End --*/
+
