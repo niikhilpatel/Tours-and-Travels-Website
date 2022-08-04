@@ -277,3 +277,116 @@ header .fa-bars{
 
 /*-- Featured Section End --*/
 
+.about{
+    min-height: 100vh;
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.about .row .image img{
+    height: 65vh;
+    width: 50vw;
+}
+
+.about .row .content h3{
+    font-size: 4rem;
+    color: #0098a1;
+}
+
+.about .row .content p{
+    font-size: 1.9rem;
+    color: #333;
+}
+
+.about .row .content .btn{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: .2s linear;
+    height: 4rem;
+    width: 18rem;
+    margin-top: 1rem;
+    color: #fff;
+    background: #0098a1;
+    font-size: 2rem;
+}
+
+.about .row .content btn1,
+.about .row .content .btn:hover{
+    background: none;
+    color: #0098a1;
+    border: 2rem solid #0098a1;
+    margin-right: 1rem;
+}
+
+/* aboout section end*/
+
+
+
+
+/* Gallery Section Start*/
+
+.gallery{
+    min-width: 100vh;
+}
+
+.gallery .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.gallery .box-container .box{
+    height: 20rem;
+    width: 30rem;
+    margin: 2rem;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery .box-container .box .icons{
+    position: absolute;
+    top: 120%; left: 0;
+    background: linear-gradient(transparent,#333);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .2s linear;
+}
+
+.gallery .box-container .btn:hover .icons{
+    opacity: 1;
+    top: 0;
+}
+
+.gallery .box-container .box .icons a{
+    color: #fff;    
+    text-shadow: 0 .1rem .3rem #000;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.gallery .box-container .box .icons a:hover{
+    color: #0098a1;
+}
+
+/* Gallery Section End*/
