@@ -579,6 +579,21 @@ header .fa-bars{
 
 /*Newsletter section */
 
+.newsletter{
+    padding: 2rem;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(../images/img5.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.newsletter h1{
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: 0 .3rem .5rem #000;
+}
+
 .newsletter p{
     font-size: 2rem:
     color: #eee;
@@ -626,3 +641,54 @@ header .fa-bars{
 .footer .credit span{
     color: #0098a1;
 }
+
+
+
+/*Newsletter section end*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*Social MEdia LInk start */
+
+.social{
+    position: fixed;
+    top: 50%;
+    left: 25px;
+    transform: translate(-50%);
+}
+
+.social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #CBCBCB;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.social a:hover{
+    background-color: #000000;
+    transition: all ease 0.5s;
+}
+
+.social i{
+    font-size: 20px;
+    color: #2B2B2B;
+
+}
+
+/*Social MEdia LInk end */
